@@ -54,6 +54,7 @@ const Result = () => {
         if(userDataFromLocalStorage){
         setBMI(userDataFromLocalStorage.weight / (userDataFromLocalStorage.height /100 * userDataFromLocalStorage.height /100))
         }
+        console.log(data)
         return null;
     }
 
