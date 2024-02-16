@@ -1,4 +1,4 @@
-[build]
-  base    = "docs"
-  publish = "_site"
-  command = "npm run build"
+[build]	
+    command = "npm run build"
+    build = "build"
+    base = "dist"
