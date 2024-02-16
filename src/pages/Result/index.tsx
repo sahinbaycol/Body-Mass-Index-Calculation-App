@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 
@@ -42,7 +42,6 @@ const Result = () => {
       };
       const [bmi,setBMI]=useState<number>()
       const[bmiSituation,setBMISituation] =useState<string>("")
-      const [bmiSuggestedList,setSuggestedList]=useState<HTMLElement>()
       const [bmibgcolor,setBmibgcolor]=useState<string>("")
       
 

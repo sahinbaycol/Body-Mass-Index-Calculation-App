@@ -1,5 +1,5 @@
-import React, { CSSProperties, useState } from 'react'
-import { json, useNavigate } from 'react-router-dom';
+import  { CSSProperties, useState } from 'react'
+import {  useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 const StyledInput=styled.input`
 
@@ -37,10 +37,7 @@ export type personalInfo={
     height:number;
 }
 
-const protoUserInfo:personalInfo={
-    weight:0,
-    height:0,
-}
+
 
 
 const Form = () => {
